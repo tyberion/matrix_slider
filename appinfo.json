@@ -12,18 +12,6 @@
                 "file": "fonts/matrix code nfi.ttf",
                 "name": "FONT_MATRIX_21",
                 "type": "font"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/Squareo.ttf",
-                "name": "FONT_SQUARE_OPEN_42",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/Square.ttf",
-                "name": "FONT_SQUARE_42",
-                "type": "font"
             }
         ]
     },
