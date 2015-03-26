@@ -21,7 +21,7 @@ void set_digit(int col, int num) {
     Layer *layer = text_layer_get_layer(text_layer[col]);
     
     to_rect[col] = layer_get_frame(layer);
-    to_rect[col].origin.y = ((offsets[col][num]) * -21) + center - 13;
+    to_rect[col].origin.y = ((offsets[col][num]) * -24) + 8;
     
     if(animations[col])
         property_animation_destroy(animations[col]);
@@ -105,7 +105,7 @@ void handle_init(void) {
     window_set_background_color(my_window, GColorBlack);
   
     //Create GFont
-    s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_MATRIX_21));
+    s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_MATRIX_24));
 
     Layer *root_layer = window_get_root_layer(my_window);
     GRect frame = layer_get_frame(root_layer);
