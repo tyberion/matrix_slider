@@ -1,0 +1,38 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Tyberion",
+    "longName": "Matrix Slider Watch Face",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/matrix code nfi.ttf",
+                "name": "FONT_MATRIX_21",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/Squareo.ttf",
+                "name": "FONT_SQUARE_OPEN_42",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/Square.ttf",
+                "name": "FONT_SQUARE_42",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Matrix Slider",
+    "uuid": "0062897a-3a0c-4ca3-9f4b-77e261923a28",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
